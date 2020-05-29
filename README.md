@@ -8,7 +8,7 @@ javascript:(function(){window.location.href+="?share=1";})();
 ```
 
 # Usage
-Click the bookmarklet when you encounter a login pop-up, and it will immediately be removed, along with the page content unblurred.
+When you encounter Quora's annoying login pop-up, simply click the bookmarklet, and the pop-up will immediately be removed, along with the page content unblurred.
 
 # How It Works
 Executing the bookmarklet will append the parameter, `?share=1`, to the current URL, which exploits Quora's "sharing without restriction" feature [&#40;Learn more&#41;](https://www.quora.com/q/quora/Making-Sharing-Better).
