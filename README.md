@@ -1,2 +1,21 @@
-# Bypass-Quora-Login
-Bypasses Quora's login pop-up.
+# Bypass Quora Login
+A simple and efficient bookmarklet that bypasses Quora's login pop-up.
+
+# Installation
+Copy and paste the code below into the URL section of a new bookmark.
+```javascript
+javascript:(function(){window.location.href+="?share=1";})();
+```
+
+# Usage
+Click the bookmarklet when you encounter a login pop-up, and it will immediately be removed, along with the page content unblurred.
+
+# How It Works
+Executing the bookmarklet will append the parameter, `?share=1`, to the current URL, which exploits Quora's "sharing without restriction" feature [&#40;Learn more&#41;](https://www.quora.com/q/quora/Making-Sharing-Better).
+
+# Compatibility
+Browser | Supported
+--------|------------
+Chrome |     ✓
+Firefox|     ✓
+Safari |     ✓
