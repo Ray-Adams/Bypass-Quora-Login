@@ -1,1 +1,1 @@
-javascript:(function(){window.location.href+="?share=1";})();
+javascript:window.location.href+='?share=1'
