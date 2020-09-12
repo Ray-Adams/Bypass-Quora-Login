@@ -1,1 +1,1 @@
-javascript:window.location.href+='?share=1'
+javascript:void(location.href.includes("quora.com")&&(location.href+="?share=1"))
