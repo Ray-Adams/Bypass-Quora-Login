@@ -4,7 +4,7 @@ A simple and efficient bookmarklet that bypasses Quora's login pop-up.
 ## Installation
 Copy and paste the code below into the URL section of a new bookmark.
 ```javascript
-javascript:window.location.href+='?share=1'
+javascript:void(location.href.includes("quora.com")&&(location.href+="?share=1"))
 ```
 
 ## Usage
