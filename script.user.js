@@ -17,15 +17,15 @@
 
     let styles = `
         .signup_wall_prevent_scroll {
-            overflow:auto!important
+            overflow: auto !important; /* Re-enable scrolling */
         }
 
         div#root {
-            filter: none !important;
+            filter: none !important; /* Unblur content */
         }
 
         div._DialogSignupForm.BaseSignupForm.vertical_alignment_wrapper {
-            display: none !important;
+            display: none !important; /* Remove sign-up form */
         }
     `, styleSheet = document.createElement("style");
 
